@@ -184,13 +184,13 @@ body {
 #portfolio {
   padding: 60px 0;
 }
-#portfolio .portfolio-flters {
+#portfolio .filters-button-group {
   padding: 0 0 40px 0;
   margin: 0 auto;
   list-style: none;
   text-align: center;
 }
-#portfolio .portfolio-flters li {
+#portfolio .filters-button-group .button {
   cursor: pointer;
   display: inline-block;
   padding: 0;
@@ -207,7 +207,7 @@ body {
   margin-bottom: 20px;
   background: linear-gradient(45deg, #025add, #0c6de0);
 }
-#portfolio .portfolio-flters:first-child {
+#portfolio .filters-button-group:first-child {
   margin-left: 0;
 }
 #portfolio .portfolio-wrap {
